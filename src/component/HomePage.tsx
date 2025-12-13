@@ -2,10 +2,10 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { FcGoogle } from 'react-icons/fc'
 
-export default function App() {
+export default function Home() {
   return (
-    <div className='flex flex-col md:justify-center bg-gray-900 items-center justify-end min-h-screen px-4 pb-6 gap-4'>
-      <div className='flex w-full gap-3 md:w-auto'>
+    <div className='flex flex-col items-center justify-end min-h-screen px-4 pb-6 gap-4'>
+      <div className='flex w-full gap-3'>
         <Button
           variant='outline'
           className='flex-1 text-[14px] md:text-base font-medium rounded-full py-4'
@@ -14,7 +14,7 @@ export default function App() {
         </Button>
 
         <Link href='/login' className='flex-1'>
-          <Button className='w-full rounded-full bg-[#2B8761] text-white py-4 cursor-pointer'>
+          <Button className='w-full rounded-full bg-[#2B8761] text-white py-4'>
             Login
           </Button>
         </Link>

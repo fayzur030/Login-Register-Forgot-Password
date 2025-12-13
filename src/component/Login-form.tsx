@@ -114,7 +114,7 @@ export function LoginForm({
 
           <Button
             variant='outline'
-            className='w-full text-[14px] md:text-base font-medium mt-4 rounded-full flex items-center gap-2 py-6'
+            className='w-full text-[14px] md:text-base font-medium mt-3 rounded-full flex items-center gap-2 py-6'
           >
             <FcGoogle className='w-6 h-6 md:w-7 md:h-7' />
             <p>Login with Google</p>

@@ -44,7 +44,7 @@ export function VerifyAccount({
           <Input type='code' id='code' placeholder='4 Digit Code' />
         </div>
 
-        <Field className='flex flex-col items-center justify-end md:justify-center min-h-[55vh] md:min-h-0 w-full'>
+        <Field className='flex flex-col items-center  justify-end md:justify-center min-h-[55vh] md:min-h-0 w-full'>
           <FieldDescription className='text-[#475569] text-sm text-center min-h-[30vh] md:min-h-0'>
             Didn&apos;t receive the code?{' '}
             <a href='#' className='text-[#94A3B8] underline'>

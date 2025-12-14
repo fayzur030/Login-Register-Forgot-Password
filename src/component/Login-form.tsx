@@ -37,7 +37,7 @@ export function LoginForm({
     }
 
     setError('')
-    router.push('/')
+    router.push('/dashboard')
   }
 
   return (

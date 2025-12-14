@@ -92,7 +92,7 @@ export function PasswordVerify({
 
           <Button
             type='submit'
-            className='bg-[#2B8761] rounded-full w-full md:w-auto px-10'
+            className='bg-[#2B8761] rounded-full w-full md:w-auto px-10 text-white'
             disabled={code.length !== 4}
           >
             Verify

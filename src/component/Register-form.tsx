@@ -142,7 +142,10 @@ export function RegisterForm({
         )}
 
         <Field className='mt-28'>
-          <Button type='submit' className='bg-[#2B8761] rounded-full'>
+          <Button
+            type='submit'
+            className='bg-[#2B8761] rounded-full text-white'
+          >
             Create Account
           </Button>
         </Field>

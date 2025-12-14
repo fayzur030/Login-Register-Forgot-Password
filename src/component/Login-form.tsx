@@ -107,7 +107,7 @@ export function LoginForm({
           </Link>
         </div>
 
-        <Button type='submit' className='bg-[#2B8761] rounded-full'>
+        <Button type='submit' className='bg-[#2B8761] text-white rounded-full'>
           Login
         </Button>
 

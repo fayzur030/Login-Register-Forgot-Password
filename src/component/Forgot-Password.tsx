@@ -50,7 +50,7 @@ export function ForgotPassword({
         <div className='flex flex-col items-center justify-end md:justify-center min-h-[58vh] md:min-h-0 w-full'>
           <Button
             type='submit'
-            className='bg-[#2B8761] rounded-full w-full px-8'
+            className='bg-[#2B8761] rounded-full w-full px-8 text-white'
           >
             Send Reset Instruction
           </Button>

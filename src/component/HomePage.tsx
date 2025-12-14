@@ -4,7 +4,7 @@ import { FcGoogle } from 'react-icons/fc'
 
 export default function HomePage() {
   return (
-    <div className='flex flex-col items-center justify-end md:justify-center min-h-screen px-4 pb-6 gap-4 bg-gray-900'>
+    <div className='flex flex-col items-center justify-end md:justify-center min-h-screen px-4 pb-6 gap-4 '>
       <div className='flex w-full gap-3 justify-center md:w-auto'>
         <Button
           asChild
@@ -24,7 +24,7 @@ export default function HomePage() {
 
       <Button
         variant='outline'
-        className='w-full md:w-auto text-[14px] md:text-base font-medium rounded-full flex items-center justify-center gap-2 py-4'
+        className='w-full md:w-auto text-[14px] md:text-ba xse font-medium rounded-full flex items-center justify-center  gap-2 py-4'
       >
         <FcGoogle className='w-6 h-6 md:w-7 md:h-7' />
         <span>Login with Google</span>

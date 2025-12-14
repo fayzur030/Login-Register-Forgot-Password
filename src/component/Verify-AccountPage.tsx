@@ -57,7 +57,7 @@ export function VerifyAccount({
 
           <Button
             type='submit'
-            className='bg-[#2B8761] rounded-full w-full md:w-auto'
+            className='bg-[#2B8761] rounded-full w-full md:w-auto text-white'
           >
             Verify
           </Button>

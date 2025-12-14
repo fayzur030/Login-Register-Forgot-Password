@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import loginImage from '../../assets/Background Image.png'
+// import loginImage from '../../assets/Background Image.png'
+import loginImage from '../../assets/image6.jpg'
 import { VerifyAccount } from '@/component/Verify-AccountPage'
 
 export default function VerifyAccountPage() {

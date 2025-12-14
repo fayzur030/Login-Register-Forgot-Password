@@ -1,6 +1,7 @@
 'use client'
 import { LoginForm } from '@/component/Login-form'
-import loginImage from '../../assets/Background Image.png'
+import loginImage from '../../assets/image6.jpg'
+// import loginImage from '../../assets/Frame 1 (1).png'
 import Image from 'next/image'
 
 export default function LoginPage() {

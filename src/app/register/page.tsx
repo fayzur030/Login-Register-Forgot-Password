@@ -1,6 +1,7 @@
 import { RegisterForm } from '@/component/Register-form'
 import Image from 'next/image'
-import loginImage from '../../assets/Background Image.png'
+// import loginImage from '../../assets/Background Image.png'
+import loginImage from '../../assets/image6.jpg'
 
 export default function RegisterPage() {
   return (

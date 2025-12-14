@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import loginImage from '../../assets/Background Image.png'
+// import loginImage from '../../assets/Background Image.png'
+import loginImage from '../../assets/image6.jpg'
 import { NewPassword } from '@/component/New-Password'
 
 export default function ForgotPasswordPage() {

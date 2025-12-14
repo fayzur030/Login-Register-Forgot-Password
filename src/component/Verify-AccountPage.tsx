@@ -41,7 +41,7 @@ export function VerifyAccount({
         </div>
         <div className='grid w-full max-w-sm items-center gap-3'>
           <Label htmlFor='email'>Enter Code</Label>
-          <Input type='email' id='email' placeholder='4 Digit Code' />
+          <Input type='code' id='code' placeholder='4 Digit Code' />
         </div>
 
         <Field className='flex flex-col items-center justify-end md:justify-center min-h-[55vh] md:min-h-0 w-full'>

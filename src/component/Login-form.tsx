@@ -14,6 +14,7 @@ import { FcGoogle } from 'react-icons/fc'
 import { Eye, EyeOff } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import { MdErrorOutline } from 'react-icons/md'
+import Link from 'next/link'
 
 export function LoginForm({
   className,
@@ -98,9 +99,12 @@ export function LoginForm({
         </Field>
 
         <div>
-          <a className='text-[#3C9AFB] font-medium text-sm md:text-base underline cursor-pointer hover:text-[#7794F6] pl-4 flex justify-end'>
+          <Link
+            href='/forget-password'
+            className='text-[#3C9AFB] font-medium text-sm md:text-base underline cursor-pointer hover:text-[#7794F6] pl-4 flex justify-end'
+          >
             Forget password?
-          </a>
+          </Link>
         </div>
 
         <Button type='submit' className='bg-[#2B8761] rounded-full'>
